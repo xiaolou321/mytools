@@ -1,0 +1,4 @@
+customtkinter>=5.2.0
+Pillow>=10.0.0
+# Windows-specific dependency for native Windows.Media.Ocr
+winsdk; sys_platform == "win32"
